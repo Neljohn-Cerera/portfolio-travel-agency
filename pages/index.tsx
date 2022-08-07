@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Next JS Tailwind Template</title>
+        <title>Next JS Tailwind Templates</title>
         <meta name="description" content="Nextjs TailwindCss Template" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
