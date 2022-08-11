@@ -19,8 +19,8 @@ const Navbar = () => {
           </ul>
           <ul
             className={classnames(
-              "md:text-lg text-white md:font-semibold md:bg-blue-500 md:self-center md:py-2 md:px-6 cursor-pointer",
-              "md:hover:bg-blue-300 md:hover:text-xl"
+              "md:text-lg text-white md:font-semibold md:bg-blue-500 md:self-center md:py-2 md:px-6 md:rounded cursor-pointer ",
+              "md:hover:bg-blue-700"
             )}
           >
             Promo
