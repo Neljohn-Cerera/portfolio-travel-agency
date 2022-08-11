@@ -1,9 +1,10 @@
 import React from "react";
+import LandingPage from "./landing-page";
 
 const Dashboard = () => {
   return (
     <>
-      <h5 className="text-white">Dashboard</h5>
+      <LandingPage />
     </>
   );
 };

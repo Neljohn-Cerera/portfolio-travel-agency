@@ -6,11 +6,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Next JS Tailwind Templates</title>
+        <title>Davao Travel Agency | Dashboard</title>
         <meta name="description" content="Nextjs TailwindCss Template" />
         <link rel="icon" href="/favicon.ico" />
-        <Dashboard />
       </Head>
+      <Dashboard />
     </>
   );
 };
