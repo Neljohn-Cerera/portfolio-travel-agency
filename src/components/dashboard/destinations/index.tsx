@@ -54,6 +54,17 @@ const Destinations = () => {
         "
         />
       </div>
+      <button
+        type="button"
+        className="inline-block py-2 w-40 bg-violet-600 text-white font-semibold text-lg 
+        leading-tight uppercase rounded shadow-md mt-16 mx-auto
+        hover:bg-violet-700 hover:shadow-lg 
+        focus:bg-violet-700 focus:shadow-lg focus:outline-none focus:ring-0 
+        active:bg-violet-800 active:shadow-lg 
+        transition duration-150 ease-in-out"
+      >
+        More
+      </button>
     </div>
   );
 };

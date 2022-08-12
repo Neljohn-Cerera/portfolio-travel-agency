@@ -1,11 +1,12 @@
 import React from "react";
 import classnames from "classnames";
+import { Logo } from "./logo";
 
 const Navbar = () => {
   return (
     <div className="h-24 shadow-lg flex">
-      <div className="flex-1">
-        <h3 className="hidden">Logo</h3>
+      <div className="flex-1 pl-16 flex justify-start items-center">
+        <Logo />
       </div>
       <nav className="flex-1 flex md:flex-row md:justify-center md:items-center">
         <li className="flex space-x-5">
