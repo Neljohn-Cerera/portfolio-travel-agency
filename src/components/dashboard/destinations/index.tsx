@@ -7,14 +7,14 @@ import Ratings from "./ratings";
 
 const Destinations = () => {
   return (
-    <div className="w-full flex flex-col bg-gray-50 p-16">
-      <h2 className="text-blue-900 font-extrabold text-3xl tracking-widest uppercase mx-auto mb-16">
+    <div className="w-full flex flex-col bg-gray-50 px-16 py-32">
+      <h2 className="text-blue-900 font-extrabold text-3xl tracking-widest uppercase mx-auto mb-32">
         Destinations
       </h2>
       <div className="grid grid-cols-2">
         {/* IMAGE 1 */}
         {/* Image */}
-        <div className="relative w-full h-96 mb-16">
+        <div className="relative w-full h-96 mb-40">
           <Image
             src={eden}
             alt="Picture of Eden Destination"
@@ -23,7 +23,8 @@ const Destinations = () => {
             className="rounded"
           />
         </div>
-        <div className="pl-5 flex flex-col">
+        {/* Content */}
+        <div className="pl-16 flex flex-col">
           <h3 className="uppercase font-bold text-2xl text-blue-700 mb-2">
             EDEN
           </h3>
@@ -52,7 +53,7 @@ const Destinations = () => {
           <hr />
         </div>
         {/* IMAGE 2 */}
-        <div className="pr-5 flex flex-col">
+        <div className="pr-16 flex flex-col">
           <h3 className="uppercase font-bold text-2xl text-blue-700 mb-2">
             Malagos Tour
           </h3>
@@ -81,7 +82,7 @@ const Destinations = () => {
           </button>
           <hr />
         </div>
-        <div className="relative w-full h-96 mb-16">
+        <div className="relative w-full h-96 mb-40">
           <Image
             src={malagos}
             alt="Picture of Malgos Destination"
@@ -100,7 +101,7 @@ const Destinations = () => {
             className="rounded"
           />
         </div>
-        <div className="pl-5 flex flex-col">
+        <div className="pl-16 flex flex-col">
           <h3 className="uppercase font-bold text-2xl text-blue-700 mb-2">
             Samal
           </h3>
