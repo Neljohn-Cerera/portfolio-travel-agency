@@ -12,7 +12,7 @@ const Navbar = () => {
           <ul
             className={classnames(
               "md:text-lg md:font-normal md:p-4 md:tracking-wide cursor-pointer",
-              "md:hover:text-blue-900 md:hover:text-xl"
+              "md:hover:text-blue-900"
             )}
           >
             Dashboard
@@ -23,20 +23,20 @@ const Navbar = () => {
               "md:hover:bg-blue-700"
             )}
           >
-            Promo
+            Promotions
           </ul>
           <ul
             className={classnames(
               "md:text-lg md:font-normal md:p-4 md:tracking-wide cursor-pointer",
-              "md:hover:text-blue-900 md:hover:text-xl"
+              "md:hover:text-blue-900"
             )}
           >
-            Places
+            Destinations
           </ul>
           <ul
             className={classnames(
               "md:text-lg md:font-normal md:p-4 md:tracking-wide cursor-pointer",
-              "md:hover:text-blue-900 md:hover:text-xl"
+              "md:hover:text-blue-900"
             )}
           >
             Contact
@@ -44,7 +44,7 @@ const Navbar = () => {
           <ul
             className={classnames(
               "md:text-lg md:font-normal md:p-4 md:tracking-wide cursor-pointer",
-              "md:hover:text-blue-900 md:hover:text-xl"
+              "md:hover:text-blue-900"
             )}
           >
             Account

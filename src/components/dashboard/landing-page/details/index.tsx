@@ -4,7 +4,7 @@ const Details = () => {
   return (
     <div className="md:w-[600px] md:flex md:flex-col justify-center items-start pl-16">
       <h1 className="md:text-5xl md:font-bold md:text-blue-900 md:tracking-widest uppercase">
-        Travel With US
+        Travel davao
       </h1>
       <h3 className="md:text-xl md:font-semibold md:text-blue-500 md:tracking-wider md:my-5">
         WHERE YOU CAN NEVER FORGET
@@ -29,7 +29,7 @@ const Details = () => {
         active:bg-violet-800 active:shadow-lg 
         transition duration-150 ease-in-out"
       >
-        Book NOW
+        Book NOW {">>"}
       </button>
     </div>
   );
