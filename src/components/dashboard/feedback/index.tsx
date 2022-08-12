@@ -40,10 +40,10 @@ const Feedback = () => {
   };
   return (
     <div className="p-16 bg-white flex flex-col">
-      <h2 className="text-blue-900 font-extrabold text-3xl tracking-widest uppercase mx-auto mb-5">
+      <h2 className="text-blue-900 font-extrabold text-3xl tracking-widest uppercase mx-auto mb-6">
         Feedback
       </h2>
-      <hr className="mb-16" />
+      <hr className="mb-16 w-1/4 mx-auto" />
       <div className="grid grid-cols-2">
         <form
           onSubmit={handleSubmit(onSubmitHandler)}
