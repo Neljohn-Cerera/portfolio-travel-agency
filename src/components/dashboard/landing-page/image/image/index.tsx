@@ -5,7 +5,7 @@ const LandingImage = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
-      className="w-full h-5/6"
+      className="md:w-full md:h-5/6"
       viewBox="0 0 743.31832 819.52927"
     >
       <path

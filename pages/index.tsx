@@ -7,7 +7,10 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Davao Travel Agency | Dashboard</title>
-        <meta name="description" content="Nextjs TailwindCss Template" />
+        <meta
+          name="description"
+          content="Disawake Portfolio Nextjs TailwindCss Template"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Dashboard />

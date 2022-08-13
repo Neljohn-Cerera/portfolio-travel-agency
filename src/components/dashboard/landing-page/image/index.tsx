@@ -3,7 +3,7 @@ import LandingImage from "./image";
 
 const Image = () => {
   return (
-    <div className="flex-1 flex justify-center items-center">
+    <div className="md:flex-1 md:flex md:justify-center md:items-center hidden">
       <LandingImage />
     </div>
   );

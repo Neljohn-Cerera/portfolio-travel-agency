@@ -4,7 +4,7 @@ import Image from "./image";
 
 const LandingPage = () => {
   return (
-    <div className="flex bg-white h-[550px]">
+    <div className="md:flex bg-white md:h-[550px] h-[400px]">
       <Details />
       <Image />
     </div>
