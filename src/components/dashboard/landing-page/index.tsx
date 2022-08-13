@@ -4,7 +4,11 @@ import Image from "./image";
 
 const LandingPage = () => {
   return (
-    <div className="md:flex bg-white md:h-[550px] h-[400px]">
+    <div
+      className="bg-gradient-to-r from-violet-300 to-blue-500 shadow-lg bg-white h-[400px]
+     md:flex md:h-[550px] md:bg-none
+    "
+    >
       <Details />
       <Image />
     </div>

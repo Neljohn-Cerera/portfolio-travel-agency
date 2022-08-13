@@ -7,33 +7,33 @@ const Details = () => {
     items-center justify-center p-10 mx-auto"
     >
       <h1
-        className="text-3xl font-extrabold text-blue-900 tracking-widest uppercase
-      md:text-5xl md:font-bold"
+        className="text-4xl text-white font-black tracking-widest uppercase
+      md:text-5xl md:font-bold md:text-blue-900 "
       >
         Travel davao
       </h1>
       <h3
-        className="md:text-xl md:tracking-wider md:my-5 
-      text-base font-semibold text-blue-500 my-2"
+        className="md:text-xl md:tracking-wider md:my-5 md:text-blue-500  
+      text-lg font-semibold text-gray-50 my-2"
       >
         WHERE YOU CAN NEVER FORGET
       </h3>
       <ul className="flex flex-col list-disc">
         <li
           className="md:ml-5 md:text-lg md:tracking-wider
-        font-normal text-gray-500 text-base mb-1"
+        font-normal md:text-gray-500 text-white text-base mb-1"
         >
           Davao best places
         </li>
         <li
           className="md:ml-5 md:text-lg md:tracking-wider
-        font-normal text-gray-500 text-base mb-1"
+        font-normal md:text-gray-500 text-white text-base mb-1"
         >
           Davao best places
         </li>
         <li
           className="md:ml-5 md:text-lg md:tracking-wider
-        font-normal text-gray-500 text-base mb-1"
+        font-normal md:text-gray-500 text-white text-base mb-1"
         >
           Meet New Friends
         </li>

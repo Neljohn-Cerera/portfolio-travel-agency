@@ -33,8 +33,8 @@ const Title = ({ title, className }: { title: string; className?: string }) => {
     <>
       <h2
         className={classnames(
-          "text-blue-900 font-extrabold md:text-3xl md:mb-6 mb-3",
-          "text-xl",
+          "text-blue-900 font-black md:font-extrabold md:text-3xl md:mb-6 mb-3",
+          "text-2xl",
           "tracking-widest uppercase mx-auto",
           className
         )}
