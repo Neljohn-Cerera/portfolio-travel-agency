@@ -40,7 +40,7 @@ const Details = () => {
       </ul>
       <button
         type="button"
-        className="inline-block py-3 w-60 bg-violet-600 text-white font-normal text-lg 
+        className="animate-bounce md:animate-none inline-block py-3 w-60 bg-violet-600 text-white font-normal text-lg 
         leading-tight uppercase rounded shadow-md mt-6 
         hover:bg-violet-700 hover:shadow-lg 
         focus:bg-violet-700 focus:shadow-lg focus:outline-none focus:ring-0 
