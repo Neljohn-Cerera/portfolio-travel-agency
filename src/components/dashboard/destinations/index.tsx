@@ -8,7 +8,7 @@ import Destination from "./destination";
 
 const Destinations = () => {
   return (
-    <Section.Col className="bg-white">
+    <Section.Col className="bg-gray-50">
       <>
         <Section.Title title="Destinations" />
         <Flex.Col>
@@ -57,12 +57,12 @@ const Destinations = () => {
 
         <button
           type="button"
-          className="inline-block py-2 w-40 bg-violet-600 text-white font-semibold text-lg 
-        leading-tight uppercase rounded shadow-md mt-16 mx-auto
-        hover:bg-violet-700 hover:shadow-lg 
-        focus:bg-violet-700 focus:shadow-lg focus:outline-none focus:ring-0 
-        active:bg-violet-800 active:shadow-lg 
-        transition duration-150 ease-in-out"
+          className="mx-auto mt-16 inline-block w-40 rounded bg-violet-600 py-2 
+        text-lg font-semibold uppercase leading-tight text-white shadow-md
+        transition duration-150 
+        ease-in-out hover:bg-violet-700 hover:shadow-lg focus:bg-violet-700 
+        focus:shadow-lg focus:outline-none 
+        focus:ring-0 active:bg-violet-800 active:shadow-lg"
         >
           More
         </button>

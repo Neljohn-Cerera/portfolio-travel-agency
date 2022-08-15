@@ -3,50 +3,61 @@ import React from "react";
 const Details = () => {
   return (
     <div
-      className="md:w-[600px] h-full flex flex-col md:justify-center md:items-start md:pl-16 md:m-0
-    items-center justify-center p-10 mx-auto"
+      className="mx-auto flex h-full flex-col items-center justify-center p-10 md:m-0
+    md:w-[600px] md:items-start md:justify-center md:pl-16"
     >
       <h1
-        className="text-4xl text-white font-black tracking-widest uppercase
-      md:text-5xl md:font-bold md:text-blue-900 "
+        className="max-w-2xl text-4xl font-black 
+      leading-tight tracking-tight text-gray-900 sm:text-7xl"
       >
-        Travel davao
+        <span
+          className="-mx-2 bg-gradient-to-r from-pink-500 to-purple-700 
+        decoration-clone bg-clip-text px-2 text-transparent sm:text-7xl"
+        >
+          Travel
+        </span>
+        <span
+          className="-mx-2 bg-gradient-to-r from-cyan-500 to-blue-500 
+        decoration-clone bg-clip-text px-2 text-transparent sm:text-7xl"
+        >
+          Davao
+        </span>
       </h1>
       <h3
-        className="md:text-xl md:tracking-wider md:my-5 md:text-blue-500  
-      text-lg font-semibold text-gray-50 my-2"
+        className="my-2 text-lg font-semibold text-gray-50  
+      md:my-5 md:text-xl md:tracking-wider md:text-blue-500"
       >
         WHERE YOU CAN NEVER FORGET
       </h3>
-      <ul className="flex flex-col list-disc">
+      <ul className="flex list-disc flex-col">
         <li
-          className="md:ml-5 md:text-lg md:tracking-wider
-        font-normal md:text-gray-500 text-white text-base mb-1"
+          className="mb-1 text-base font-normal
+        text-white md:ml-5 md:text-lg md:tracking-wider md:text-gray-500"
         >
           Davao best places
         </li>
         <li
-          className="md:ml-5 md:text-lg md:tracking-wider
-        font-normal md:text-gray-500 text-white text-base mb-1"
+          className="mb-1 text-base font-normal
+        text-white md:ml-5 md:text-lg md:tracking-wider md:text-gray-500"
         >
           Davao best places
         </li>
         <li
-          className="md:ml-5 md:text-lg md:tracking-wider
-        font-normal md:text-gray-500 text-white text-base mb-1"
+          className="mb-1 text-base font-normal
+        text-white md:ml-5 md:text-lg md:tracking-wider md:text-gray-500"
         >
           Meet New Friends
         </li>
       </ul>
       <button
         type="button"
-        className="animate-bounce md:animate-none inline-block py-3 w-60 bg-violet-600 text-white font-normal text-lg 
-        leading-tight uppercase rounded shadow-md mt-6 
-        hover:bg-violet-700 hover:shadow-lg 
-        focus:bg-violet-700 focus:shadow-lg focus:outline-none focus:ring-0 
-        active:bg-violet-800 active:shadow-lg 
-        transition duration-150 ease-in-out
-        md:py-5 md:w-64 md:text-xl "
+        className="mt-6 inline-block w-60 animate-bounce rounded bg-violet-600 py-3 text-lg font-normal 
+        uppercase leading-tight text-white shadow-md transition 
+        duration-150 ease-in-out 
+        hover:bg-violet-700 hover:shadow-lg focus:bg-violet-700 focus:shadow-lg 
+        focus:outline-none focus:ring-0 
+        active:bg-violet-800 active:shadow-lg md:w-64
+        md:animate-none md:py-5 md:text-xl "
       >
         Book NOW {">>"}
       </button>

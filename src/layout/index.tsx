@@ -6,7 +6,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="flex h-full w-full flex-col bg-gray-50">
       <Navbar />
       <hr />
-      <main className="bg-gray-50">{children}</main>
+      <main className="bg-white">{children}</main>
       <Footer />
     </div>
   );
